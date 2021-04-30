@@ -1,0 +1,240 @@
+nohup: ignoring input
+DataParallel(
+  (module): ResNet(
+    (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+    (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+    (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (layer1): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer2): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer3): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (layer4): Sequential(
+      (0): BasicBlock(
+        (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (downsample): Sequential(
+          (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): BasicBlock(
+        (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (relu): ReLU(inplace)
+        (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+    (fc): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+['BLACK', 'WHITE', 'YELLOW']
+Epoch 0/29
+----------
+ train Loss: 0.9408 Acc: 0.5478
+ val Loss: 0.8426 Acc: 0.6173
+
+Epoch 1/29
+----------
+ train Loss: 0.7686 Acc: 0.6569
+ val Loss: 0.7106 Acc: 0.6790
+
+Epoch 2/29
+----------
+ train Loss: 0.6529 Acc: 0.7224
+ val Loss: 0.6455 Acc: 0.7293
+
+Epoch 3/29
+----------
+ train Loss: 0.5542 Acc: 0.7755
+ val Loss: 0.5369 Acc: 0.7782
+
+Epoch 4/29
+----------
+ train Loss: 0.4845 Acc: 0.8061
+ val Loss: 0.4436 Acc: 0.8235
+
+Epoch 5/29
+----------
+ train Loss: 0.4318 Acc: 0.8299
+ val Loss: 0.5138 Acc: 0.7851
+
+Epoch 6/29
+----------
+ train Loss: 0.3907 Acc: 0.8475
+ val Loss: 0.3866 Acc: 0.8450
+
+Epoch 7/29
+----------
+ train Loss: 0.3688 Acc: 0.8541
+ val Loss: 0.3489 Acc: 0.8657
+
+Epoch 8/29
+----------
+ train Loss: 0.3373 Acc: 0.8658
+ val Loss: 0.4255 Acc: 0.8292
+
+Epoch 9/29
+----------
+ train Loss: 0.3197 Acc: 0.8746
+ val Loss: 0.3334 Acc: 0.8716
+
+Epoch 10/29
+----------
+ train Loss: 0.2989 Acc: 0.8824
+ val Loss: 0.3851 Acc: 0.8448
+
+Epoch 11/29
+----------
+ train Loss: 0.2890 Acc: 0.8863
+ val Loss: 0.4188 Acc: 0.8360
+
+Epoch 12/29
+----------
+ train Loss: 0.2773 Acc: 0.8915
+ val Loss: 0.2822 Acc: 0.8920
+
+Epoch 13/29
+----------
+ train Loss: 0.2619 Acc: 0.8974
+ val Loss: 0.3133 Acc: 0.8755
+
+Epoch 14/29
+----------
+ train Loss: 0.2558 Acc: 0.8999
+ val Loss: 0.2802 Acc: 0.8906
+
+Epoch 15/29
+----------
+ train Loss: 0.2435 Acc: 0.9046
+ val Loss: 0.3516 Acc: 0.8609
+
+Epoch 16/29
+----------
+ train Loss: 0.2343 Acc: 0.9087
+ val Loss: 0.2444 Acc: 0.9049
+
+Epoch 17/29
+----------
+ train Loss: 0.2243 Acc: 0.9114
+ val Loss: 0.2747 Acc: 0.8957
+
+Epoch 18/29
+----------
+ train Loss: 0.2146 Acc: 0.9162
+ val Loss: 0.2638 Acc: 0.8969
+
+Epoch 19/29
+----------
+ train Loss: 0.2156 Acc: 0.9167
+ val Loss: 0.2782 Acc: 0.8940
+
+Epoch 20/29
+----------
+ train Loss: 0.1942 Acc: 0.9264
+ val Loss: 0.2094 Acc: 0.9205
+
+Epoch 21/29
+----------
+ train Loss: 0.1851 Acc: 0.9288
+ val Loss: 0.2069 Acc: 0.9205
+
+Epoch 22/29
+----------
+ train Loss: 0.1851 Acc: 0.9284
+ val Loss: 0.2033 Acc: 0.9235
+
+Epoch 23/29
+----------
+ train Loss: 0.1828 Acc: 0.9288
+ val Loss: 0.2050 Acc: 0.9210
+
+Epoch 24/29
+----------
+ train Loss: 0.1798 Acc: 0.9330
+ val Loss: 0.2066 Acc: 0.9213
+
+Epoch 25/29
+----------
+ train Loss: 0.1812 Acc: 0.9306
+ val Loss: 0.2066 Acc: 0.9198
+
+Epoch 26/29
+----------
+ train Loss: 0.1818 Acc: 0.9294
+ val Loss: 0.2035 Acc: 0.9229
+
+Epoch 27/29
+----------
+ train Loss: 0.1774 Acc: 0.9316
+ val Loss: 0.2061 Acc: 0.9208
+
+Epoch 28/29
+----------
+ train Loss: 0.1779 Acc: 0.9326
+ val Loss: 0.2009 Acc: 0.9234
+
+Epoch 29/29
+----------
+ train Loss: 0.1775 Acc: 0.9302
+ val Loss: 0.2036 Acc: 0.9214
+
+Train complete in 19m 15s
+Best val Acc: 0.923534

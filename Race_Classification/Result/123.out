@@ -1,0 +1,153 @@
+nohup: 忽略输入
+Epoch 0/29
+----------
+ train Loss: 0.9507 Acc: 0.5339
+ val Loss: 0.7972 Acc: 0.6525
+
+Epoch 1/29
+----------
+ train Loss: 0.7462 Acc: 0.6773
+ val Loss: 0.6538 Acc: 0.7200
+
+Epoch 2/29
+----------
+ train Loss: 0.5625 Acc: 0.7703
+ val Loss: 0.5938 Acc: 0.7370
+
+Epoch 3/29
+----------
+ train Loss: 0.4365 Acc: 0.8269
+ val Loss: 0.3510 Acc: 0.8662
+
+Epoch 4/29
+----------
+ train Loss: 0.3635 Acc: 0.8576
+ val Loss: 0.3657 Acc: 0.8588
+
+Epoch 5/29
+----------
+ train Loss: 0.3092 Acc: 0.8797
+ val Loss: 0.3110 Acc: 0.8777
+
+Epoch 6/29
+----------
+ train Loss: 0.2569 Acc: 0.9012
+ val Loss: 0.3523 Acc: 0.8668
+
+Epoch 7/29
+----------
+ train Loss: 0.2165 Acc: 0.9173
+ val Loss: 0.2615 Acc: 0.9009
+
+Epoch 8/29
+----------
+ train Loss: 0.1749 Acc: 0.9375
+ val Loss: 0.4560 Acc: 0.8393
+
+Epoch 9/29
+----------
+ train Loss: 0.1392 Acc: 0.9514
+ val Loss: 0.2474 Acc: 0.9103
+
+Epoch 10/29
+----------
+ train Loss: 0.0993 Acc: 0.9670
+ val Loss: 0.2949 Acc: 0.8967
+
+Epoch 11/29
+----------
+ train Loss: 0.0682 Acc: 0.9807
+ val Loss: 0.2985 Acc: 0.9001
+
+Epoch 12/29
+----------
+ train Loss: 0.0449 Acc: 0.9900
+ val Loss: 0.3427 Acc: 0.8955
+
+Epoch 13/29
+----------
+ train Loss: 0.0281 Acc: 0.9948
+ val Loss: 0.2915 Acc: 0.9064
+
+Epoch 14/29
+----------
+ train Loss: 0.0191 Acc: 0.9973
+ val Loss: 0.3736 Acc: 0.8906
+
+Epoch 15/29
+----------
+ train Loss: 0.0142 Acc: 0.9986
+ val Loss: 0.3153 Acc: 0.9097
+
+Epoch 16/29
+----------
+ train Loss: 0.0118 Acc: 0.9986
+ val Loss: 0.3091 Acc: 0.9089
+
+Epoch 17/29
+----------
+ train Loss: 0.0086 Acc: 0.9994
+ val Loss: 0.3115 Acc: 0.9065
+
+Epoch 18/29
+----------
+ train Loss: 0.0070 Acc: 0.9995
+ val Loss: 0.3204 Acc: 0.9103
+
+Epoch 19/29
+----------
+ train Loss: 0.0059 Acc: 0.9998
+ val Loss: 0.3251 Acc: 0.9116
+
+Epoch 20/29
+----------
+ train Loss: 0.0069 Acc: 0.9991
+ val Loss: 0.3145 Acc: 0.9126
+
+Epoch 21/29
+----------
+ train Loss: 0.0056 Acc: 0.9996
+ val Loss: 0.3334 Acc: 0.9117
+
+Epoch 22/29
+----------
+ train Loss: 0.0041 Acc: 0.9997
+ val Loss: 0.3312 Acc: 0.9126
+
+Epoch 23/29
+----------
+ train Loss: 0.0041 Acc: 0.9998
+ val Loss: 0.3251 Acc: 0.9162
+
+Epoch 24/29
+----------
+ train Loss: 0.0036 Acc: 0.9997
+ val Loss: 0.3281 Acc: 0.9123
+
+Epoch 25/29
+----------
+ train Loss: 0.0034 Acc: 0.9998
+ val Loss: 0.3266 Acc: 0.9159
+
+Epoch 26/29
+----------
+ train Loss: 0.0027 Acc: 0.9998
+ val Loss: 0.3235 Acc: 0.9156
+
+Epoch 27/29
+----------
+ train Loss: 0.0025 Acc: 0.9998
+ val Loss: 0.3260 Acc: 0.9164
+
+Epoch 28/29
+----------
+ train Loss: 0.0026 Acc: 0.9997
+ val Loss: 0.3253 Acc: 0.9175
+
+Epoch 29/29
+----------
+ train Loss: 0.0023 Acc: 0.9997
+ val Loss: 0.3262 Acc: 0.9165
+
+Train complete in 103m 23s
+Best val Acc: 0.917547

@@ -1,0 +1,183 @@
+nohup: ignoring input
+['BLACK', 'WHITE', 'YELLOW']
+Epoch 0/29
+----------
+ train Loss: 0.4606 Acc: 0.8104
+ val Loss: 0.2363 Acc: 0.9091
+
+Epoch 1/29
+----------
+ train Loss: 0.2452 Acc: 0.9079
+ val Loss: 0.1871 Acc: 0.9302
+
+Epoch 2/29
+----------
+ train Loss: 0.1881 Acc: 0.9306
+ val Loss: 0.1648 Acc: 0.9399
+
+Epoch 3/29
+----------
+ train Loss: 0.1512 Acc: 0.9471
+ val Loss: 0.1598 Acc: 0.9433
+
+Epoch 4/29
+----------
+ train Loss: 0.1207 Acc: 0.9567
+ val Loss: 0.1511 Acc: 0.9469
+
+Epoch 5/29
+----------
+ train Loss: 0.0936 Acc: 0.9688
+ val Loss: 0.1527 Acc: 0.9463
+
+Epoch 6/29
+----------
+ train Loss: 0.0713 Acc: 0.9780
+ val Loss: 0.1585 Acc: 0.9458
+
+Epoch 7/29
+----------
+ train Loss: 0.0547 Acc: 0.9845
+ val Loss: 0.1606 Acc: 0.9461
+
+Epoch 8/29
+----------
+ train Loss: 0.0437 Acc: 0.9880
+ val Loss: 0.1650 Acc: 0.9454
+
+Epoch 9/29
+----------
+ train Loss: 0.0310 Acc: 0.9929
+ val Loss: 0.1738 Acc: 0.9442
+
+Epoch 10/29
+----------
+ train Loss: 0.0253 Acc: 0.9946
+ val Loss: 0.1770 Acc: 0.9464
+
+Epoch 11/29
+----------
+ train Loss: 0.0200 Acc: 0.9953
+ val Loss: 0.1898 Acc: 0.9428
+
+Epoch 12/29
+----------
+ train Loss: 0.0161 Acc: 0.9971
+ val Loss: 0.1871 Acc: 0.9452
+
+Epoch 13/29
+----------
+ train Loss: 0.0115 Acc: 0.9982
+ val Loss: 0.1922 Acc: 0.9452
+
+Epoch 14/29
+----------
+ train Loss: 0.0103 Acc: 0.9986
+ val Loss: 0.2044 Acc: 0.9426
+
+Epoch 15/29
+----------
+ train Loss: 0.0095 Acc: 0.9984
+ val Loss: 0.2117 Acc: 0.9426
+
+Epoch 16/29
+----------
+ train Loss: 0.0082 Acc: 0.9986
+ val Loss: 0.2173 Acc: 0.9431
+
+Epoch 17/29
+----------
+ train Loss: 0.0069 Acc: 0.9989
+ val Loss: 0.2105 Acc: 0.9431
+
+Epoch 18/29
+----------
+ train Loss: 0.0063 Acc: 0.9993
+ val Loss: 0.2112 Acc: 0.9442
+
+Epoch 19/29
+----------
+ train Loss: 0.0056 Acc: 0.9991
+ val Loss: 0.2279 Acc: 0.9418
+
+Epoch 20/29
+----------
+ train Loss: 0.0045 Acc: 0.9996
+ val Loss: 0.2183 Acc: 0.9414
+
+Epoch 21/29
+----------
+ train Loss: 0.0046 Acc: 0.9993
+ val Loss: 0.2246 Acc: 0.9436
+
+Epoch 22/29
+----------
+ train Loss: 0.0043 Acc: 0.9996
+ val Loss: 0.2210 Acc: 0.9437
+
+Epoch 23/29
+----------
+ train Loss: 0.0042 Acc: 0.9992
+ val Loss: 0.2208 Acc: 0.9433
+
+Epoch 24/29
+----------
+ train Loss: 0.0037 Acc: 0.9994
+ val Loss: 0.2264 Acc: 0.9430
+
+Epoch 25/29
+----------
+ train Loss: 0.0033 Acc: 0.9996
+ val Loss: 0.2238 Acc: 0.9431
+
+Epoch 26/29
+----------
+ train Loss: 0.0030 Acc: 0.9995
+ val Loss: 0.2270 Acc: 0.9434
+
+Epoch 27/29
+----------
+ train Loss: 0.0031 Acc: 0.9996
+ val Loss: 0.2245 Acc: 0.9434
+
+Epoch 28/29
+----------
+ train Loss: 0.0025 Acc: 0.9998
+ val Loss: 0.2299 Acc: 0.9421
+
+Epoch 29/29
+----------
+ train Loss: 0.0029 Acc: 0.9996
+ val Loss: 0.2338 Acc: 0.9430
+
+Train complete in 22m 36s
+Best val Acc: 0.946867
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Exception ignored in: <bound method _DataLoaderIter.__del__ of <torch.utils.data.dataloader._DataLoaderIter object at 0x7f2a301b7588>>
+Traceback (most recent call last):
+  File "/home/liuting/.local/lib/python3.5/site-packages/torch/utils/data/dataloader.py", line 399, in __del__
+    self._shutdown_workers()
+  File "/home/liuting/.local/lib/python3.5/site-packages/torch/utils/data/dataloader.py", line 378, in _shutdown_workers
+    self.worker_result_queue.get()
+  File "/usr/lib/python3.5/multiprocessing/queues.py", line 345, in get
+    return ForkingPickler.loads(res)
+  File "/home/liuting/.local/lib/python3.5/site-packages/torch/multiprocessing/reductions.py", line 151, in rebuild_storage_fd
+    fd = df.detach()
+  File "/usr/lib/python3.5/multiprocessing/resource_sharer.py", line 58, in detach
+    return reduction.recv_handle(conn)
+  File "/usr/lib/python3.5/multiprocessing/reduction.py", line 181, in recv_handle
+    return recvfds(s, 1)[0]
+  File "/usr/lib/python3.5/multiprocessing/reduction.py", line 152, in recvfds
+    msg, ancdata, flags, addr = sock.recvmsg(1, socket.CMSG_LEN(bytes_size))
+ConnectionResetError: [Errno 104] Connection reset by peer
